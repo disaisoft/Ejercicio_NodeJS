@@ -9,12 +9,12 @@ let estudios={
     "universidad" : "SENA",
     "cursos" : "Udemy, freecodecamp"
 }
-let aboutme="Hola, mi nombre es David Isai López. Soy desarrollador WEB Frellance";
+let acercademi="Hola, mi nombre es David Isai López. Soy desarrollador WEB Frellance";
 
-let skill = {
+let habilidades = {
     'css' : '75%',
     'html' : '90%',
-    'js' : '60%',
+    'js' : '50%',
     'react' : '40%',
     'c#' : '90%'
 }
@@ -25,7 +25,7 @@ let experiencia = {
     'Frameworks' : 'Entity, Sass, Bootstrap, Stulus'
 }
 
-let contact = {
+let contacto = {
     'Tel' : '3117056041',
     'Email' : 'disaisoft@gmail.com',
     'Dirección' : 'calle 37a # 88 - 15 La America',
@@ -35,10 +35,10 @@ let contact = {
 
 
 app.get('/estudios', (req, res) => res.json (estudios));
-app.get('/aboutme', (req, res) => res.json (aboutme));
+app.get('/acercademi', (req, res) => res.json (acercademi));
 app.get('/experiencia', (req, res) => res.json (experiencia));
-app.get('/skill', (req, res) => res.json (skill));
-app.get('/contact', (req, res) => res.json (contact));
+app.get('/habilidades', (req, res) => res.json (habilidades));
+app.get('/contacto', (req, res) => res.json (contacto));
 
 
 app.listen(PORT, () => console.log(`Escuchar el puerto ${PORT}!`));
