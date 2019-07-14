@@ -4,9 +4,10 @@ const path = require('path');
 
 const PORT = 3000;
 let estudios={
-    "primaria":"Cienaga",
+    "primaria":"Cienaga - Magdalena",
     "secundaria":"Medellin",
-    "universidad" : "SENA"
+    "universidad" : "SENA",
+    "cursos" : "Udemy, freecodecamp"
 }
 let aboutme="Hola, mi nombre es David Isai López. Soy desarrollador WEB Frellance";
 
